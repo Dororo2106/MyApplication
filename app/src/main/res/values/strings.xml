@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ClimaApp</string>
+    <string name="ubicacionActual">No se encontro ubicacion</string>
+    <string name="climaActual">--</string>
+    <string name="descripcionClima">Sin resultados</string>
+    <string name="maxActual">--</string>
+    <string name="minActual">--</string>
+
+
+
+
+
+</resources>

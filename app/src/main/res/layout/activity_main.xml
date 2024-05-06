@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ubicacionActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/ubicacionActual"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/climaActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/climaActual"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/ubicacionActual"
+        app:layout_constraintStart_toStartOf="@+id/ubicacionActual"
+        app:layout_constraintTop_toBottomOf="@+id/ubicacionActual" />
+
+    <TextView
+        android:id="@+id/descripcionClima"
+        android:layout_width="254dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/descripcionClima"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/climaActual"
+        app:layout_constraintStart_toStartOf="@+id/climaActual"
+        app:layout_constraintTop_toBottomOf="@+id/climaActual" />
+
+    <TextView
+        android:id="@+id/maxActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/maxActual"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/descripcionClima"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="@+id/descripcionClima"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionClima" />
+
+    <TextView
+        android:id="@+id/minActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/minActual"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/descripcionClima"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/maxActual"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionClima" />
+
+    <LinearLayout
+        android:id="@+id/DayForecast4"
+        android:layout_width="324dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxActual">
+
+
+        <LinearLayout
+            android:id="@+id/dayOne"
+            android:layout_width="57dp"
+            android:layout_height="119dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dayoneforecast"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Dia uno" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DayForecast4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584285227266",
+    "project_id": "climaapp-a0ee8",
+    "storage_bucket": "climaapp-a0ee8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584285227266:android:11d30a82e172593e4b9a1b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpRwOvaHQFkXWfs-_8idIsQnD2UJ_MDQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
